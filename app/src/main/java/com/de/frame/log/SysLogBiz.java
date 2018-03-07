@@ -11,7 +11,8 @@ import java.util.Date;
 
 import android.os.Environment;
 
-import com.hisign.mpp.Constants;
+import com.de.frame.Constants;
+
 
 /**
  * @描述：系统错误日志类
