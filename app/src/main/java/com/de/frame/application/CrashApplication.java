@@ -15,7 +15,6 @@ import com.lzy.okgo.OkGo;
  */
 public class CrashApplication extends Application {
     private static CrashApplication crashApplication = null;
-    private int count = 0;
 
     @Override
     public void onCreate() {

@@ -22,12 +22,6 @@ import java.lang.reflect.ParameterizedType;
  * @author chenglin
  */
 public abstract class BaseActivity<V extends IBaseView, P extends BasePresenter<V>> extends AppCompatActivity {
-
-
-
-
-
-
     /**
      * activity和service管理类
      */
