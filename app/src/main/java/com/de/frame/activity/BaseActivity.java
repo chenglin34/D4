@@ -23,6 +23,11 @@ import java.lang.reflect.ParameterizedType;
  */
 public abstract class BaseActivity<V extends IBaseView, P extends BasePresenter<V>> extends AppCompatActivity {
 
+
+
+
+
+
     /**
      * activity和service管理类
      */
