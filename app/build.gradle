@@ -1,7 +1,7 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 25
+    compileSdkVersion 26
     defaultConfig {
         applicationId "frame.de.com.deframe"
         minSdkVersion 21
@@ -25,11 +25,7 @@ android {
     dexOptions {
         javaMaxHeapSize "4g"
     }
-    externalNativeBuild {
-        cmake {
-            path "CMakeLists.txt"
-        }
-    }
+
     buildToolsVersion '26.0.3'
 }
 
